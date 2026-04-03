@@ -35,3 +35,11 @@ h1 {
     margin-top: 20px;
     border-radius: 10px;
 }
+
+.projet-card {
+    border: 1px solid #b71b1b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
