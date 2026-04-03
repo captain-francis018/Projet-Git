@@ -27,3 +27,11 @@ h1 {
 .menu-nav a:hover {
     color: #e63946;
 }
+
+.section-about,
+.section-projet {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
