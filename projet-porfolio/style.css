@@ -9,3 +9,9 @@ body {
 h1 {
     color: #1d3557;
 }
+
+.site_header {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+}
