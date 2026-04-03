@@ -16,3 +16,11 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0.1)
 }
+
+.menu-nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1d574f;
+    font-weight:  bold;
+}
+
