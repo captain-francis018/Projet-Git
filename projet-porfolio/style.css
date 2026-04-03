@@ -24,3 +24,6 @@ h1 {
     font-weight:  bold;
 }
 
+.menu-nav a:hover {
+    color: #e63946;
+}
