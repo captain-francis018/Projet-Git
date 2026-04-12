@@ -1,0 +1,12 @@
+{
+  "projets": [
+    {
+      "id": 1,
+      "libelle": "Portfolio Cloud & DevOps",
+      "description": "Site personnel présentant mes compétences, mes projets et mon parcours d’apprentissage.",
+      "technologies": "HTML, Git, Tailwind CSS",
+      "date": "2025-04-01",
+      "image": "../Images/portfolio-webdesigner.jpg"
+    }
+  ]
+}
