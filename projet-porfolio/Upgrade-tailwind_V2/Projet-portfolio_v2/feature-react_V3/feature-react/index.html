@@ -1,13 +1,34 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>feature-react</title>
+    <title>Portfolio – Abdoukarim Sy</title>
+
+    <!-- Tailwind CDN (même style que ta phase 3) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2563eb',   /* blue-600 */
+              dark: '#1e293b',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <!--
+      Ce div est le SEUL élément HTML important.
+      React va injecter toute l'application dedans.
+      Sans ce div#root, React ne sait pas où s'attacher.
+    -->
+    <div id="root"></div>
+
+    <!-- Vite charge main.jsx en tant que module ES6 -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
