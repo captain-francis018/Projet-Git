@@ -1,1 +1,11 @@
-{"projets":[]}
+{
+  "projets": [
+    {
+      "id": 1,
+      "libelle": "Portfolio Web",
+      "description": "Mon portfolio développé en HTML, CSS et JS",
+      "image": "https://imgs.search.brave.com/ER2L3JQifQ8OWGTRyMZdxzqqPsF63ReFuSqZGoCLG14/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvbDBxMDM1/ODRtMDZkMS5naWY.jpeg",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}

@@ -13,11 +13,10 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom'
 // import AjouterProjet from './components/AjouterProjet'
 // import DetaillerProjet from './components/DetaillerProjet'
 
-// ── PLACEHOLDER — sera remplacé bloc par bloc ──────────────
-const Dossier        = () => <div className="p-8 text-center text-gray-400">Dossier à venir (Bloc 3)</div>
-const AjouterProjet  = () => <div className="p-8 text-center text-gray-400">AjouterProjet à venir (Bloc 5)</div>
-const DetaillerProjet= () => <div className="p-8 text-center text-gray-400">DetaillerProjet à venir (Bloc 6)</div>
-// ────────────────────────────────────────────────────────────
+import Dossier from './components/Dossier'
+const AjouterProjet   = () => <div className="p-8 text-center text-gray-400">AjouterProjet — Bloc 5</div>
+const DetaillerProjet = () => <div className="p-8 text-center text-gray-400">DetaillerProjet — Bloc 6</div>
+
 
 
 // ── COMPOSANT HEADER ────────────────────────────────────────
