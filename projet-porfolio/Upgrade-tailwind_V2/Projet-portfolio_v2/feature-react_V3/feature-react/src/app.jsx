@@ -14,7 +14,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom'
 // import DetaillerProjet from './components/DetaillerProjet'
 
 import Dossier from './components/Dossier'
-const AjouterProjet   = () => <div className="p-8 text-center text-gray-400">AjouterProjet — Bloc 5</div>
+import AjouterProjet from './components/AjouterProjet'
 const DetaillerProjet = () => <div className="p-8 text-center text-gray-400">DetaillerProjet — Bloc 6</div>
 
 
